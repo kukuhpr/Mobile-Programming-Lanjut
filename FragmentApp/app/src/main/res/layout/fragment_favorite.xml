@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/starblue">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/starblue">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="14dp">
+                <ImageView
+                    android:id="@+id/sd_img"
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginRight="14dp"
+                    android:src="@drawable/sddk"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/item_img"
+                    android:layout_toRightOf="@+id/item_img"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/sd_namaItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/starblue"
+                        android:text="@string/nama_sd"/>
+
+                    <TextView
+                        android:id="@+id/sd_descItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:text="@string/desc_sd"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:padding="14dp">
+                <ImageView
+                    android:id="@+id/smp_img"
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginRight="14dp"
+                    android:src="@drawable/smppoto"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/item_img"
+                    android:layout_toRightOf="@+id/item_img"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/smp_namaItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/starblue"
+                        android:text="@string/nama_smp"/>
+
+                    <TextView
+                        android:id="@+id/smp_descItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:text="@string/desc_smp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:padding="14dp">
+                <ImageView
+                    android:id="@+id/sma_img"
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginRight="14dp"
+                    android:src="@drawable/smapoto"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/item_img"
+                    android:layout_toRightOf="@+id/item_img"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/sma_namaItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/starblue"
+                        android:text="@string/nama_sma"/>
+
+                    <TextView
+                        android:id="@+id/sma_descItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:text="@string/desc_sma"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:padding="14dp">
+                <ImageView
+                    android:id="@+id/item_img"
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginRight="14dp"
+                    android:src="@drawable/ittpdownload"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/item_img"
+                    android:layout_toRightOf="@+id/item_img"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_namaItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/starblue"
+                        android:text="@string/nama_kul"/>
+
+                    <TextView
+                        android:id="@+id/tv_descItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:text="@string/desc_kul"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

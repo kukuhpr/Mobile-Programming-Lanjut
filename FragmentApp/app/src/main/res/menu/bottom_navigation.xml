@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="Profile"
+        android:iconTint="@color/starblue"/>
+
+    <item
+        android:id="@+id/nav_favorite"
+        android:icon="@drawable/ic_school_black_24dp"
+        android:title="Pendidikan"
+        android:iconTint="@color/starblue"/>
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:title="Hobi"
+        android:iconTint="@color/starblue"/>
+
+
+
+
+
+    </menu>
